@@ -1,0 +1,26 @@
+{
+  "name": "sean/leetcode",
+  "description": "Leetcode Challenges Solution",
+  "type": "project",
+  "require": {
+      "pestphp/pest": "^2.8"
+  },
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "Challenges\\": "challenges/",
+          "Tests\\": "tests/"
+      }
+  },
+  "authors": [
+      {
+          "name": "Sean",
+          "email": "mr.seangrover@icloud.com"
+      }
+  ],
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
